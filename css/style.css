@@ -1,0 +1,69 @@
+/*Selector + propiedades + valor 
+selector { <--- elemento o etiqueta del html
+propiedad: valor <--- atributo con su valor
+}
+Unidades de medida  -px- -em- -rem- -%- 
+*/
+/* Reset de CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    font-size: 16px;
+}
+/* estilos generales en etiquetas  */
+ul {list-style: none;display: flex;margin: 0%;padding: 0;gap: 1rem;} 
+a{text-decoration: none;}
+body {background-color: rgba(24, 16, 16, 0.238);}
+header{
+    background: url(../assets/imgheder.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /* height: 50vh; */
+}
+.contsuperior{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Estilos especificos*/
+/* estilos de imagenes tomando class*/
+.logohipo{width: 5rem;border-radius: 100%;}
+.imgse{width: 100%;}
+/* Estilo de Titulo tomando class*/
+.tituloh1{text-decoration: underline;text-align: center;}
+.tituloh2{text-decoration: underline;text-align: center;}
+
+.contse{
+    width: 15rem;
+    border: 2px solid blue;
+    margin: 1px;
+}
+.contemain{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contse button{
+    margin: 0rem 0rem 0rem 4rem;
+}
+/* footer estilos  */
+footer{
+    background-color: rgb(107, 107, 158);
+    color: aliceblue;
+    padding: 1rem;
+}
+/*Estilo por ID*/
+#Colapinto{text-align: center;}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+}
+
